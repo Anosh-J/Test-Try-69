@@ -82,4 +82,40 @@
             border-radius: 50px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
             cursor: pointer;
-            transition: background-color 0
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .button:hover {
+            background-color: #ff4b4b;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Joyeux Anniversaire, Joanne ❤️</h1>
+        <div class="heart">❤️</div>
+        <p>C'est ton anniv Joanne ! 🎉</p>
+        <p>Je voulais prendre un instant pour te dire à quel point tu es une personne incroyable.</p>
+        <p>Tu illumines la vie de tous ceux qui ont la chance de te connaître, et encore plus la mienne.</p>
+        <p>J’espère que cette journée sera aussi magnifique que toi. 🥰</p>
+
+        <button class="button" onclick="alert('Je t\'adore Joanne ! ❤️')">Clique ici pour un message secret 💖</button>
+
+        <div class="footer">
+            <p>Avec tout mon amour,</p>
+            <p>Anosh ❤️</p>
+        </div>
+    </div>
+</body>
+</html>
